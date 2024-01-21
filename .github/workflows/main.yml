@@ -53,6 +53,5 @@ jobs:
 
       - name: Docker Scout Scan
         uses: docker/scout-action@v1.3.0
-        run:
           docker scout quickview
           docker scout cves
